@@ -1,22 +1,46 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Mr. Juana King",
+      "id": 5
     },
     {
-      "name": "Elsie Price",
+      "name": "Eric Murray MD",
+      "id": 6
+    }
+  ],
+  "albums": [
+    {
+      "userId": 5,
+      "title": "Refined Metal Fish",
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "title": "Generic Frozen Mouse",
+      "id": 5
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/640/480?lock=948927153045504",
+      "id": 1
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3921909286699008",
       "id": 3
     },
     {
-      "name": "Harold Strosin",
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7846727881064448",
       "id": 4
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1296302851751936",
+      "id": 5
     }
-  ],
-  "albums": [{
-    "id": 10,
-    "title": "hiking trip",
-    "useId": 1
-  }],
-  "photos": []
+  ]
 }
